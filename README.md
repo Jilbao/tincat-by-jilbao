@@ -1,2 +1,2 @@
 # tincat-by-jilbao
-tincat project from A.Yu's course
+tindog project from A.Yu's course
