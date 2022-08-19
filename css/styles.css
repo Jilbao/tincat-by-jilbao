@@ -7,14 +7,9 @@ body {
   background-color: #ff4c68;
   
 }
-@media only screen and (max-width: 992px){
-    #title {
-        text-align: center;
-    }
-}
 
 #title-wrapper {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 h1 {
   font-family: "Montserrat";
@@ -44,14 +39,22 @@ nav ul li {
     margin: 5% 3% 5% 0;
 }
 /* Header Image*/
+
 .title-image {
-    width: 60%;
-    transform: rotate(25deg);
     
+    transform: rotate(25deg);
+    max-width: 60%;
+    position: absolute;
+    right: 25%;    
 }
 /* Features */
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+    
+    
 }
 .feature-box {
     text-align: center;
@@ -114,4 +117,58 @@ h2 {
 }
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+#cta h3{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 3%;
+}
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 7% 15% 2%;
+}
+#footer i{
+    padding: 0 1%;
+    font-size: 1.25rem;
+}
+#footer p{
+    padding-top: 2%;
+}
+@media only screen and (min-width: 992px) and (max-width: 1268px){
+    /* Header Image*/
+    .title-image {
+        width: 25%; 
+        right: 15%;   
+    }
+
+}
+@media only screen and (max-width: 992px){
+    #title {
+        text-align: center;
+    }
+    /* Header Image*/
+    .title-image {
+        position: static;
+        z-index: 0;
+        width: 40%;
+        transform: rotate(0deg);
+          
+    }
+    /* Features */
+    #features {  
+        position: static;
+        z-index: 0;
+    
+    }
+
 }
