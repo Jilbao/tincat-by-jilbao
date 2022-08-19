@@ -179,8 +179,47 @@ h2 {
 }
 
 @media (max-width: 992px) {
+  /* Font sizes */
+  body{
+    font-size: 2rem;
+  }
+  #logo {
+    font-size: calc(2*(2.5rem));
+  }
+  nav ul li {
+    font-size: calc(3*(1.2rem));
+  }
+  .navbar-toggler {
+    font-size: 4.5rem;
+  }
+  h1 {
+    font-size: calc(2*(3.5rem));
+  }
+  #features i {
+    font-size: calc(2*(4rem));
+  }
+  #features h3 {
+    font-size: calc(2*(1.5rem));
+  }
+  h2 {
+    font-size: calc(2*(3rem));
+  }
+  #cta h3 {
+    font-size: calc(2*(3.5rem));
+  }
+  #footer i {
+    font-size: calc(2*(1.25rem));
+  }
+  /* button adjusment for mobile */
+  .btn{
+    height: 6rem;
+    width: 18rem;
+    font-size: 2.2rem; 
+  }
+  
   #title {
     text-align: center;
+    padding-top: 150px;
   }
 
   /* Header Image*/
