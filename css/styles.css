@@ -1,10 +1,16 @@
 /* font-family: 'Ubuntu', sans-serif; */
+:root{
+    --primary :#ff4c68;
+    --secondary : #ef8172;
+    --whitespace : #fff;
+    --description: #8f8f8f;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
 
 #title {
-  background-color: #ff4c68;
+  background-color: var(--primary);
   padding-top: 70px;
 }
 
@@ -16,7 +22,7 @@ h1 {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
-  color: white;
+  color: var(--whitespace);
 }
 
 /* Navigation Bar */
@@ -26,7 +32,7 @@ h1 {
   position: fixed;
   z-index: 2;
   width: 100%;
-  background-color: #ff4c68;
+  background-color: var(--primary);
 }
 .carousel-indicators{
     z-index: 1;
@@ -60,7 +66,7 @@ nav ul li {
 /* Features */
 #features {
   padding: 7% 15%;
-  background-color: #fff;
+  background-color: var(--whitespace);
   position: relative;
 }
 
@@ -70,13 +76,13 @@ nav ul li {
 }
 
 #features i {
-  color: #ef8172;
+  color: var(--secondary);
   font-size: 4rem;
   padding-bottom: 1rem;
 }
 
 #features i:hover {
-  color: #ff4c68;
+  color: var(--primary);
 }
 
 #features h3 {
@@ -85,14 +91,14 @@ nav ul li {
 }
 
 #features p {
-  color: #8f8f8f;
+  color: var(--description);
 }
 
 /* Testimonials */
 #testimonials {
   text-align: center;
-  background-color: #ef8172;
-  color: #fff;
+  background-color: var(--secondary);
+  color: var(--whitespace);
 }
 
 h2 {
@@ -109,7 +115,7 @@ h2 {
 
 /* Press */
 #press {
-  background-color: #ef8172;
+  background-color: var(--secondary);
   text-align: center;
   padding-bottom: 3%;
 }
@@ -134,7 +140,7 @@ h2 {
 
 /* Call to Action */
 #cta {
-  background-color: #ff4c68;
+  background-color: var(--primary);
   text-align: center;
   padding: 7% 15%;
 }
@@ -143,7 +149,7 @@ h2 {
   font-size: 3.5rem;
   font-weight: bold;
   line-height: 1.5;
-  color: #fff;
+  color: var(--whitespace);
   padding-bottom: 3%;
 }
 
