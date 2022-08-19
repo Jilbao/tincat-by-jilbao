@@ -107,3 +107,11 @@ h2 {
 .carousel-item {
     padding: 7% 15%;
 }
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
