@@ -8,6 +8,12 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+.darktheme {
+  --primary :#351116;
+  --secondary : #5c342f;
+  --whitespace : rgb(0, 0, 0);
+  --description: #bdbdbd;
+}
 
 #title {
   background-color: var(--primary);
@@ -133,6 +139,7 @@ h2 {
 /* Pricing */
 #pricing {
   padding: 100px;
+  background-color: var(--whitespace);
 }
 
 .pricing-column {
